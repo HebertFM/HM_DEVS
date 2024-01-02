@@ -1,0 +1,11 @@
+ /* Ocultar icono de reCaptcha v3 */
+.grecaptcha-badge{
+    visibility: collapse !important;  
+}
+
+Código CSS 2:
+
+/* Ocultar icono de reCaptcha v3 */
+.grecaptcha-badge {
+opacity:0 !important;
+}
