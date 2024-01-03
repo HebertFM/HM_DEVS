@@ -1,5 +1,5 @@
 <script>
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function(){ 
 let divc = document.querySelectorAll('div[style]');
 for (let i = 0, len = divc.length; i < len; i++) {
 
