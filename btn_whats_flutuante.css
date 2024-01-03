@@ -1,0 +1,73 @@
+.whatsapp::before{
+content: "Posso Ajudar?";
+font-size:0.8em;
+font-weight: bold;
+background:#fefefe;
+padding: 1em;
+border-radius: 5px;
+position: fixed;
+top:485px;
+margin-left: 680px;
+
+transform: translatey(-50%);
+left:14px;
+
+opacity: 0;
+transition: 0.5s;
+animation: mensagem 4s ease infinite 3s;
+}
+
+.whatsapp:: after{
+content:" ";
+display:block;
+position: absolute;
+
+transform: translatey(-50%);
+border-width:6px 0 6px 8px;
+border-left-color: #fefefe;
+
+}
+
+
+.whatsapp:hover::before{
+opacity: 1 !important;
+left: 14% !important;
+animation:none;
+}
+
+.whatsapp:hover::after{
+opacity: 1 !important;
+left: 65% !important;
+animation:none;
+}
+
+
+@keyframes mensagem{
+0%{
+opacity:0;
+left: 14%;
+}
+10%, 90%{
+opacity:1;
+left: 14%;
+}
+100%{
+opacity:0;
+left: 14%;
+}
+}
+
+@keyframes seta{
+0%{
+opacity:0;
+right: 55%;
+}
+10%, 90%{
+opacity:1;
+right: 55%;
+}
+10%, 90%{
+opacity:1;
+right: 55%;
+}
+}
