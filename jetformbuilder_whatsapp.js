@@ -15,4 +15,4 @@ jQuery("input[name='text']").hide();
     });
 });
 
-</script>
+</script> 
